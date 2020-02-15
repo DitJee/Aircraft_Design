@@ -1,0 +1,61 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="696485339" file="D:\Jee_Aero\MATLAB\Aircraft_sizing\aircraft_sizing_app.prj" location="D:\Jee_Aero\MATLAB\Aircraft_sizing" name="aircraft_sizing_app" target="target.mlapps" target-name="Package App">
+    <param.appname>aircraft_sizing_app</param.appname>
+    <param.authnamewatermark>Dit Dejphachon</param.authnamewatermark>
+    <param.email>Ditdejphachon@gmail.com</param.email>
+    <param.company>AIAA CHULA</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>aircraft sizing app</param.summary>
+    <param.description>aircraft sizing app</param.description>
+    <param.screenshot>C:\Users\Dell\AppData\Local\Temp\tpc89a4209_761d_4245_bc06_82901e206aa9.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>006de796-406a-4da4-a13d-2f9ef5df8695</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\sizingapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\rhocal.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Jee_Aero\MATLAB" name="Aircraft_sizing" optional="false">D:\Jee_Aero\MATLAB\Aircraft_sizing</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
